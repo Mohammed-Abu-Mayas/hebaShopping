@@ -1,0 +1,176 @@
+/* هذا الملف يحدد التنسيق العام للصفحات */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(242, 208, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#header img {
+    width: 100px;
+    height: 100px;
+}
+
+#header h1 {
+    color: #0f0f0f;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin: 10px;
+}
+
+#menu li a {
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+#content {
+    width: 80%;
+     height: 67vh
+     vh ;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+#content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#content p {
+    margin-bottom: 10px;
+}
+
+#content ul {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#content th, #content td {
+    border: 1px solid #0b0b0b;
+    padding: 10px;
+    text-align: center;
+}
+
+#content button {
+    background-color: rgb(92, 59, 93);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#content button:hover {
+    background-color: #000000;
+}
+
+#cart {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #390707;
+}
+
+#cart h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#cart p {
+    margin-bottom: 10px;
+}
+
+#cart-items {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#cart-items th, #cart-items td {
+    border: 1px solid #0c0808;
+    padding: 10px;
+    text-align: center;
+}
+
+#form {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #0c0b0b;
+}
+
+#form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#form input {
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #5c0606;
+    padding: 10px;
+}
+
+#form button {
+    background-color: #2d0138;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #000000;
+}
+
+#footer {
+    background-color: #f2d1f6;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(17, 16, 17);
+    text-align: center;
+}
